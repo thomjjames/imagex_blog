@@ -1,7 +1,7 @@
-name = ImageX Blog
+name = Blog
 description = ImageX Blog
 core = 7.x
-package = Features
+package = ImageX
 version = 7.x-1.0
 project = imagex_blog
 dependencies[] = ctools
