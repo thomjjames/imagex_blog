@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the ImageX Blog feature.
+ */
+
+include_once 'imagex_blog.features.inc';
