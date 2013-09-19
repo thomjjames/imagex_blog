@@ -50,22 +50,23 @@ function imagex_blog_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 1,
+      'weight' => 31,
     ),
   );
 
-  // Exported field_instance: 'node-blog-field_file_attachment'
-  $field_instances['node-blog-field_file_attachment'] = array(
+  // Exported field_instance: 'node-blog-field_topics'
+  $field_instances['node-blog-field_topics'] = array(
     'bundle' => 'blog',
+    'default_value' => NULL,
     'deleted' => 0,
     'description' => '',
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'file',
+        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'file_default',
-        'weight' => 1,
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 3,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -75,31 +76,27 @@ function imagex_blog_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_file_attachment',
-    'label' => 'File Attachment',
-    'required' => 0,
+    'field_name' => 'field_topics',
+    'label' => 'Topic',
+    'required' => FALSE,
     'settings' => array(
-      'description_field' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'txt',
-      'max_filesize' => '',
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'active' => 1,
-      'module' => 'file',
+      'module' => 'taxonomy',
       'settings' => array(
-        'progress_indicator' => 'throbber',
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
       ),
-      'type' => 'file_generic',
-      'weight' => 6,
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 44,
     ),
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('File Attachment');
+  t('Topic');
 
   return $field_instances;
 }

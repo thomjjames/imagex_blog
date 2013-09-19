@@ -68,16 +68,16 @@ function imagex_blog_strongarm() {
     'extra_fields' => array(
       'form' => array(
         'metatags' => array(
-          'weight' => '4',
+          'weight' => '40',
         ),
         'title' => array(
-          'weight' => '0',
+          'weight' => '-5',
         ),
         'path' => array(
-          'weight' => '3',
+          'weight' => '30',
         ),
         'redirect' => array(
-          'weight' => '2',
+          'weight' => '30',
         ),
       ),
       'display' => array(),
@@ -106,8 +106,9 @@ function imagex_blog_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'node_options_blog';
   $strongarm->value = array(
-    0 => 'status',
-    1 => 'promote',
+    0 => 'promote',
+    1 => 'moderation',
+    2 => 'revision',
   );
   $export['node_options_blog'] = $strongarm;
 
