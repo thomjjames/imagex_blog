@@ -79,6 +79,9 @@ function imagex_blog_strongarm() {
         'redirect' => array(
           'weight' => '30',
         ),
+        'workbench_access' => array(
+          'weight' => '0',
+        ),
       ),
       'display' => array(),
     ),
