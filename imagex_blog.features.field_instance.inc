@@ -54,50 +54,8 @@ function imagex_blog_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-blog-field_file_attachment'
-  $field_instances['node-blog-field_file_attachment'] = array(
-    'bundle' => 'blog',
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'file',
-        'settings' => array(),
-        'type' => 'file_default',
-        'weight' => 2,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_file_attachment',
-    'label' => 'File Attachment',
-    'required' => 0,
-    'settings' => array(
-      'description_field' => 0,
-      'file_directory' => '',
-      'file_extensions' => 'txt',
-      'max_filesize' => '',
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'file',
-      'settings' => array(
-        'progress_indicator' => 'throbber',
-      ),
-      'type' => 'file_generic',
-      'weight' => 43,
-    ),
-  );
-
-  // Exported field_instance: 'node-blog-field_topics'
-  $field_instances['node-blog-field_topics'] = array(
+  // Exported field_instance: 'node-blog-field_tags'
+  $field_instances['node-blog-field_tags'] = array(
     'bundle' => 'blog',
     'default_value' => NULL,
     'deleted' => 0,
@@ -108,7 +66,7 @@ function imagex_blog_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 3,
+        'weight' => 5,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -118,28 +76,29 @@ function imagex_blog_field_default_field_instances() {
       ),
     ),
     'entity_type' => 'node',
-    'field_name' => 'field_topics',
-    'label' => 'Topic',
-    'required' => FALSE,
+    'field_name' => 'field_tags',
+    'label' => 'Tags',
+    'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
     'widget' => array(
+      'active' => 0,
       'module' => 'taxonomy',
       'settings' => array(
         'autocomplete_path' => 'taxonomy/autocomplete',
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 44,
+      'weight' => 47,
     ),
+    'workbench_access_field' => 0,
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('File Attachment');
-  t('Topic');
+  t('Tags');
 
   return $field_instances;
 }
