@@ -1,0 +1,11 @@
+name = Blog - Add This
+description = Submodule of Addthis social media field for Blog.
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_blog_addthis
+dependencies[] = addthis
+dependencies[] = features
+dependencies[] = imagex_addthis
+features[features_api][] = api:1
+features[field_instance][] = node-blog-field_addthis
