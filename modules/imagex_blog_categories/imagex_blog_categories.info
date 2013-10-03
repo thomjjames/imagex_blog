@@ -4,7 +4,6 @@ package = ImageX
 version = 7.x-1.0
 project = imagex_blog_categories
 dependencies[] = features
-dependencies[] = imagex_blog
 dependencies[] = taxonomy
 dependencies[] = uuid
 dependencies[] = uuid_features
