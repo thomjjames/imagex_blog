@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Featured Blogs feature.
+ */
+
+include_once 'imagex_blog_featured.features.inc';
