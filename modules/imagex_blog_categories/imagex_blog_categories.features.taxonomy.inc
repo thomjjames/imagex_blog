@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_blog.features.taxonomy.inc
+ * imagex_blog_categories.features.taxonomy.inc
  */
 
 /**
  * Implements hook_taxonomy_default_vocabularies().
  */
-function imagex_blog_taxonomy_default_vocabularies() {
+function imagex_blog_categories_taxonomy_default_vocabularies() {
   return array(
     'imagex_blog_category' => array(
       'name' => 'Blog Categories',
