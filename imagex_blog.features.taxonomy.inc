@@ -9,10 +9,10 @@
  */
 function imagex_blog_taxonomy_default_vocabularies() {
   return array(
-    'tags' => array(
-      'name' => 'Tags',
-      'machine_name' => 'tags',
-      'description' => 'Use tags to group content on similar topics into categories.',
+    'imagex_blog_category' => array(
+      'name' => 'Blog Categories',
+      'machine_name' => 'imagex_blog_category',
+      'description' => 'Blog Categories',
       'hierarchy' => 0,
       'module' => 'taxonomy',
       'weight' => 0,
