@@ -22,6 +22,7 @@ features[field_base][] = field_blog_category
 features[field_instance][] = node-blog-body
 features[field_instance][] = node-blog-field_blog_category
 features[field_instance][] = node-blog-field_file
+features[field_instance][] = node-blog-field_image
 features[field_instance][] = node-blog-field_tags
 features[node][] = blog
 features[panelizer_defaults][] = node:blog:default

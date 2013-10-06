@@ -1,0 +1,13 @@
+name = Featured Blogs
+description = Panel for featured blogs (promoted to home page)
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_blog_featured
+dependencies[] = views
+dependencies[] = views_content
+dependencies[] = imagex_content_featured 
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = imagex_featured_blogs
+features_exclude[dependencies][ctools] = ctools
