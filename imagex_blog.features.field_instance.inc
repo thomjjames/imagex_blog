@@ -233,7 +233,7 @@ function imagex_blog_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Image')
+  t('Image');
   t('Categories');
   t('File');
   t('Tags');
