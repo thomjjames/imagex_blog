@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Blog Workflow feature.
+ */
+
+include_once 'imagex_blog_workflow.features.inc';
