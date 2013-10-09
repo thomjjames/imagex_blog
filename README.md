@@ -1,4 +1,4 @@
-##ImageX Blog
+## Blog
 
 Base definition for 'Blog' content type.
 
