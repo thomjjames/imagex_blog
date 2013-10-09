@@ -1,4 +1,4 @@
-##ImageX Blog (imagex_blog)
+##ImageX Blog
 
 Base definition for 'Blog' content type.
 
@@ -16,19 +16,14 @@ File Image
 
 ##Dependencies
 
-ctools
-features
-file
-imagex_common_fields
-imagex_blog_categories
-imagex_user_roles_permissions
-node
-panelizer
-strongarm
-taxonomy
-text 
+* Contrib [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
+* Contrib [Features] (https://drupal.org/project/features)  (>= 1.0)
+* Contrib [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
+* Conrib [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
+* ImageX Feature [Common Fields] (https://github.com/imagex/imagex_common_fields)
+* ImageX Feature [User Roles Permissions] (https://github.com/imagex/imagex_user_roles_permissions)
 
-#Extension Modules (found under modules folder)
+#Extension Modules
 
 imagex_blog_addthis
 imagex_blog_categories
