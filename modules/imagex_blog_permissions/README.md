@@ -1,18 +1,13 @@
-##Blog Permissions
+## Blog Permissions
 
 Permissions for Blog Content Type
+ 
+## Dependencies
 
-
-##Fields
-N/A
-
-
-##Dependencies
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 1.0)
 * Feature: [Blog] (https://github.com/imagex/imagex_blog) 
 * Feature: [User Roles] (https://github.com/imagex/imagex_user_roles) 
 * Feature: [User Permissions] (https://github.com/imagex/imagex_user_permissions) 
-
 
 ## License
 

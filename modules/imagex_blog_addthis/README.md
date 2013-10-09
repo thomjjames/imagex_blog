@@ -1,18 +1,16 @@
-##Blog Social Media
+## Blog AddThis
 
 Social Media for 'Blog' Content Type
 
-##Fields
+## Fields
 
-AddThis
+* AddThis
 
-##Dependencies
+## Dependencies
 
-* Contrib: [Addthis] (https://drupal.org/project/addthis) (>= 4.0-alpha2)
-* Contrib: [Features] (https://drupal.org/project/features)  (>= 1.0)
+* Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
 * Feature: [Addthis] (https://github.com/imagex/imagex_addthis) 
 * Feature: [Blog] (https://github.com/imagex/imagex_blog) 
-
 
 ## License
 
