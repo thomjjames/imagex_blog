@@ -8,7 +8,6 @@ dependencies[] = ctools
 dependencies[] = features
 dependencies[] = file
 dependencies[] = image
-dependencies[] = imagex_blog_categories
 dependencies[] = imagex_common_fields
 dependencies[] = imagex_user_roles 
 dependencies[] = imagex_user_permissions
