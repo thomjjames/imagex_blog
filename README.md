@@ -16,12 +16,13 @@ File Image
 
 ##Dependencies
 
-* Contrib [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
-* Contrib [Features] (https://drupal.org/project/features)  (>= 1.0)
-* Contrib [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
-* Conrib [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
-* ImageX Feature [Common Fields] (https://github.com/imagex/imagex_common_fields)
-* ImageX Feature [User Roles Permissions] (https://github.com/imagex/imagex_user_roles_permissions)
+* Contrib: [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
+* Contrib: [Features] (https://drupal.org/project/features)  (>= 1.0)
+* Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
+* Contrib: [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
+* Feature: [Common Fields] (https://github.com/imagex/imagex_common_fields)
+* Feature: [User Roles Permissions] (https://github.com/imagex/imagex_user_roles)
+* Feature: [User Roles Permissions] (https://github.com/imagex/imagex_user_permissions)
 
 #Extension Modules
 
