@@ -21,8 +21,8 @@ File Image
 * Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
 * Contrib: [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
 * Feature: [Common Fields] (https://github.com/imagex/imagex_common_fields)
-* Feature: [User Roles Permissions] (https://github.com/imagex/imagex_user_roles)
-* Feature: [User Roles Permissions] (https://github.com/imagex/imagex_user_permissions)
+* Feature: [User Roles] (https://github.com/imagex/imagex_user_roles)
+* Feature: [User Permissions] (https://github.com/imagex/imagex_user_permissions)
 
 #Extension Modules
 
