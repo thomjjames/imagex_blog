@@ -1,5 +1,5 @@
 name = Blog Workflow
-description = Workbench and Scheduler settings for Blog
+description = Workbench and Scheduler settings for Blog.
 core = 7.x
 package = ImageX
 version = 7.x-1.0

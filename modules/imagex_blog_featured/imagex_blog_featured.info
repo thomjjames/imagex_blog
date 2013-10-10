@@ -1,5 +1,5 @@
 name = Featured Blogs
-description = Panel for featured blogs (promoted to home page)
+description = Panel for featured blogs (promoted to home page).
 core = 7.x
 package = ImageX
 version = 7.x-1.0
