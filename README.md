@@ -29,6 +29,7 @@ Base definition for 'Blog' content type.
 * **imagex_blog_categories*: Adds Blog Categories for blog content type.
 * **imagex_blog_featured*: Provides a 'featured blog content' panel view.
 * **imagex_blog_permissions*: Blog specific settings.
+* **imagex_blog_workflow: Adds workbench and strongarm settings for Blog content type.
 
 ## License
 
