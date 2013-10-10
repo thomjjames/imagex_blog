@@ -1,5 +1,5 @@
 name = Blog
-description = Base definition for 'Blog' content type.
+description = This component enables content management of the standard Blog content and its layout. The default layout is configurable using panelizer.
 core = 7.x
 package = ImageX
 version = 7.x-1.0

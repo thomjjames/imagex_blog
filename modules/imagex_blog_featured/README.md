@@ -1,18 +1,18 @@
 ## Featured Blog
 
-Panel view, and page of featured blogs
+Panel view and panelized page of all published blog content, promoted to the front page.
 
-## Views
+### Views
 
 * imagex_featured_blogs
 
-## Dependencies
+### Dependencies
 
-* Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
+* Contrib: [Features] (https://drupal.org/project/features) (>= 2.0)
 * Contrib: [Views] (https://drupal.org/project/views)  (>= 3.7)
-* Contrib: [Views Content] (https://drupal.org/project/views_content)  (>= 3.7)
-* Feature: [Blog] (https://github.com/imagex/imagex_blog) 
-* Feature: [Content Featured] (https://github.com/imagex/imagex_content_featured) 
+* Contrib: [Views Content] (https://drupal.org/project/views_content) (>= 3.7)
+* ImageX Component:[Blog] (https://github.com/imagex/imagex_blog) (>= 7.x-dev) 
+* ImageX Component: [Content Featured] (https://github.com/imagex/imagex_content_featured) (>= 7.x-dev) 
 
 ## License
 

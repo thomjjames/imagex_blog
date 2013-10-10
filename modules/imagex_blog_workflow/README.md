@@ -1,13 +1,13 @@
 ## Blog Workflow
 
-Workflow settings for Blog Content Type
+This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Blog content.
 
-## Dependencies
+### Dependencies
 
 * Contrib: [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
 * Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
-* Feature: [Blog] (https://github.com/imagex/imagex_blog) 
+* ImageX Component: [Blog] (https://github.com/imagex/imagex_blog) (>= 7.x-dev)
 
 ## License
 

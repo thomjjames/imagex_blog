@@ -1,12 +1,12 @@
 ## Blog Permissions
 
-Permissions for Blog Content Type
+This extension module of the Page component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
  
-## Dependencies
+### Dependencies
 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
-* Feature: [Blog] (https://github.com/imagex/imagex_blog) 
-* Feature: [User Roles] (https://github.com/imagex/imagex_user_roles) 
+* ImageX Component: [Blog] (https://github.com/imagex/imagex_blog) (>= 7.x-dev) 
+* ImageX Component: [User Roles] (https://github.com/imagex/imagex_user_roles) (>= 7.x-dev) 
 
 ## License
 

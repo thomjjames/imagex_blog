@@ -1,8 +1,8 @@
 ## Blog
 
-Base definition for 'Blog' content type.
+This component enables content management of the standard Blog content and its layout. The default layout is configurable using panelizer.
 
-## Fields
+### Fields
 
 * Title
 * Body
@@ -13,23 +13,23 @@ Base definition for 'Blog' content type.
 * File attachment
 * File Image
 
-## Dependencies
+### Dependencies
 
 * Contrib: [Ctools] (https://drupal.org/project/ctools) (>= 1.3) 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
 * Contrib: [StrongArm] (https://drupal.org/project/strongarm) (>= 2.0)
 * Contrib: [Panelizer] (https://drupal.org/project/panelizer) (>= 3.1)
-* Feature: [Common Fields] (https://github.com/imagex/imagex_common_fields)
-* Feature: [User Roles] (https://github.com/imagex/imagex_user_roles)
-* Feature: [User Permissions] (https://github.com/imagex/imagex_user_permissions)
+* ImageX Component: [Common Fields] (https://github.com/imagex/imagex_common_fields) (7.x-dev)
+* ImageX Component: [User Roles] (https://github.com/imagex/imagex_user_roles) (7.x-dev)
+* ImageX Component: [User Permissions] (https://github.com/imagex/imagex_user_permissions) (7.x-dev)
 
-## Extension Modules
+### Extension Modules
 
-* **imagex_blog_addthis*: Adds addthis field for social media to blog content type.
-* **imagex_blog_categories*: Adds Blog Categories for blog content type.
-* **imagex_blog_featured*: Provides a 'featured blog content' panel view.
-* **imagex_blog_permissions*: Blog specific settings.
-* **imagex_blog_workflow: Adds workbench and strongarm settings for Blog content type.
+* **imagex_blog_addthis*: This extension module of the Page component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for Blog content. 
+* **imagex_blog_categories*: Blog Categories for 'Blog' Content Type.
+* **imagex_blog_featured*: Panel view and panelized page of all published blog content, promoted to the front page.
+* **imagex_blog_permissions*: This extension module of the Page component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
+* **imagex_blog_workflow: This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Blog content.
 
 ## License
 

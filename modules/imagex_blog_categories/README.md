@@ -2,16 +2,16 @@
 
 Blog Categories for 'Blog' Content Type
 
-## Fields
+### Fields
 
 * AddThis
 
-## Dependencies
+### Dependencies
 
-* Contrib: [UUID] (https://drupal.org/project/uuid)  (>= 1.0-alpha5)
-* Contrib: [UUID_Features] (https://drupal.org/project/uuid_features)  (>= 1.0-alpha3)
-* Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
-* Feature: [AddThis] (https://github.com/imagex/imagex_blog) 
+* Contrib: [UUID] (https://drupal.org/project/uuid) (>= 1.0-alpha5)
+* Contrib: [UUID_Features] (https://drupal.org/project/uuid_features) (>= 1.0-alpha3)
+* Contrib: [Features] (https://drupal.org/project/features) (>= 2.0)
+* ImageX Component: [AddThis] (https://github.com/imagex/imagex_blog) (>= 7.x-dev) 
 
 ## License
 

@@ -1,16 +1,16 @@
 ## Blog AddThis
 
-Social Media for 'Blog' Content Type
+This extension module of the Page component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for Blog content.
 
-## Fields
+### Fields
 
 * AddThis
 
-## Dependencies
+### Dependencies
 
 * Contrib: [Features] (https://drupal.org/project/features)  (>= 2.0)
-* Feature: [Addthis] (https://github.com/imagex/imagex_addthis) 
-* Feature: [Blog] (https://github.com/imagex/imagex_blog) 
+* ImageX Component: [Addthis] (https://github.com/imagex/imagex_addthis) (>= 7.x-dev) 
+* ImageX Component: [Blog] (https://github.com/imagex/imagex_blog) (>= 7.x-dev) 
 
 ## License
 

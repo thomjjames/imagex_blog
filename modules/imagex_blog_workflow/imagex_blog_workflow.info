@@ -1,5 +1,5 @@
 name = Blog Workflow
-description = Workbench and Scheduler settings for Blog.
+description =  This extension module integrates with the ImageX [Workflow](http://github.com/imagex/imagex_workflow) component to provide a default publishing and scheduling workflow for Blog content.
 core = 7.x
 package = ImageX
 version = 7.x-1.0
