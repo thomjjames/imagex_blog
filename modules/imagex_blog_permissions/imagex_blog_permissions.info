@@ -1,0 +1,17 @@
+name = Blog Permissions
+description = This extension module of the Blog component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
+core = 7.x
+package = ImageX
+version = 7.x-1.0
+project = imagex_blog_permissions
+dependencies[] = features
+dependencies[] = node
+dependencies[] = imagex_user_roles 
+dependencies[] = imagex_user_permissions
+dependencies [] = imagex_blog
+features[features_api][] = api:2
+features[user_permission][] = create blog content
+features[user_permission][] = delete any blog content
+features[user_permission][] = delete own blog content
+features[user_permission][] = edit any blog content
+features[user_permission][] = edit own blog content

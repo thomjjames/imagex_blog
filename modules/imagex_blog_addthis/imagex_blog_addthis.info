@@ -1,5 +1,5 @@
-name = Blog - Add This
-description = Submodule of Addthis social media field for Blog.
+name = Blog - AddThis
+description = This extension module of the Page component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for Blog content. 
 core = 7.x
 package = ImageX
 version = 7.x-1.0

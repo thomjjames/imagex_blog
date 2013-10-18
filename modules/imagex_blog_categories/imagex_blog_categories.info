@@ -1,8 +1,10 @@
 name = Blog Categories
+description = Blog Categories for 'Blog' Content Type.
 core = 7.x
 package = ImageX
 version = 7.x-1.0
 project = imagex_blog_categories
+dependencies[] = imagex_blog
 dependencies[] = features
 dependencies[] = taxonomy
 dependencies[] = uuid

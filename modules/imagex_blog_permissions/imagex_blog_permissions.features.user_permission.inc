@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_blog.features.user_permission.inc
+ * imagex_blog_permissions.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function imagex_blog_user_default_permissions() {
+function imagex_blog_permissions_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create blog content'.
