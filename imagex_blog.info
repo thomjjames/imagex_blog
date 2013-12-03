@@ -11,7 +11,6 @@ dependencies[] = image
 dependencies[] = imagex_blog_categories
 dependencies[] = imagex_common_fields
 dependencies[] = imagex_vocabulary_tags_field
-dependencies[] = linux_common_fields
 dependencies[] = options
 dependencies[] = panelizer
 dependencies[] = strongarm
