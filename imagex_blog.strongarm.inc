@@ -71,16 +71,16 @@ function imagex_blog_strongarm() {
           'weight' => '40',
         ),
         'title' => array(
-          'weight' => '-5',
+          'weight' => '0',
         ),
         'path' => array(
-          'weight' => '30',
+          'weight' => '3',
         ),
         'redirect' => array(
-          'weight' => '30',
+          'weight' => '2',
         ),
         'workbench_access' => array(
-          'weight' => '0',
+          'weight' => '1',
         ),
       ),
       'display' => array(),

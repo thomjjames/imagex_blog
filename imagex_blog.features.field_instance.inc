@@ -50,7 +50,7 @@ function imagex_blog_field_default_field_instances() {
         'summary_rows' => 5,
       ),
       'type' => 'text_textarea_with_summary',
-      'weight' => 31,
+      'weight' => 4,
     ),
   );
 
@@ -66,7 +66,7 @@ function imagex_blog_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 9,
+        'weight' => 11,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -77,20 +77,19 @@ function imagex_blog_field_default_field_instances() {
     ),
     'entity_type' => 'node',
     'field_name' => 'field_blog_category',
-    'label' => 'Categories',
+    'label' => 'Category',
     'required' => 0,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'active' => 0,
-      'module' => 'taxonomy',
+      'active' => 1,
+      'module' => 'options',
       'settings' => array(
-        'autocomplete_path' => 'taxonomy/autocomplete',
-        'size' => 60,
+        'apply_chosen' => 0,
       ),
-      'type' => 'taxonomy_autocomplete',
-      'weight' => 53,
+      'type' => 'options_select',
+      'weight' => 5,
     ),
     'workbench_access_field' => 0,
   );
@@ -133,7 +132,7 @@ function imagex_blog_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'file_generic',
-      'weight' => 48,
+      'weight' => 7,
     ),
     'workbench_access_field' => 0,
   );
@@ -184,7 +183,7 @@ function imagex_blog_field_default_field_instances() {
         'progress_indicator' => 'throbber',
       ),
       'type' => 'image_image',
-      'weight' => 52,
+      'weight' => 8,
     ),
     'workbench_access_field' => 0,
   );
@@ -201,7 +200,7 @@ function imagex_blog_field_default_field_instances() {
         'module' => 'taxonomy',
         'settings' => array(),
         'type' => 'taxonomy_term_reference_link',
-        'weight' => 5,
+        'weight' => 10,
       ),
       'teaser' => array(
         'label' => 'above',
@@ -225,7 +224,7 @@ function imagex_blog_field_default_field_instances() {
         'size' => 60,
       ),
       'type' => 'taxonomy_autocomplete',
-      'weight' => 47,
+      'weight' => 6,
     ),
     'workbench_access_field' => 0,
   );
@@ -233,7 +232,7 @@ function imagex_blog_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Categories');
+  t('Category');
   t('File');
   t('Image');
   t('Tags');
