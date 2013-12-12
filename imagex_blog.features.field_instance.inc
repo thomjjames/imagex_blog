@@ -54,46 +54,6 @@ function imagex_blog_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-blog-field_blog_category'
-  $field_instances['node-blog-field_blog_category'] = array(
-    'bundle' => 'blog',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'taxonomy',
-        'settings' => array(),
-        'type' => 'taxonomy_term_reference_link',
-        'weight' => 11,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_blog_category',
-    'label' => 'Categories',
-    'required' => 0,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'options',
-      'settings' => array(
-        'apply_chosen' => 0,
-      ),
-      'type' => 'options_select',
-      'weight' => 5,
-    ),
-    'workbench_access_field' => 0,
-  );
-
   // Exported field_instance: 'node-blog-field_file'
   $field_instances['node-blog-field_file'] = array(
     'bundle' => 'blog',
@@ -232,10 +192,11 @@ function imagex_blog_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Body');
-  t('Categories');
   t('File');
   t('Image');
   t('Tags');
+
+  features_alter_code('field_instance', $field_instances);
 
   return $field_instances;
 }
