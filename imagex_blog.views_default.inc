@@ -113,6 +113,7 @@ function imagex_blog_views_default_views() {
   );
   $handler->display->display_options['filters']['field_tags_tid']['reduce_duplicates'] = TRUE;
   $handler->display->display_options['filters']['field_tags_tid']['vocabulary'] = 'tags';
+  $handler->display->display_options['filters']['field_tags_tid']['error_message'] = FALSE;
 
   /* Display: Blog List Pane */
   $handler = $view->new_display('panel_pane', 'Blog List Pane', 'panel_pane_1');
