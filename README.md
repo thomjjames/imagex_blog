@@ -25,7 +25,6 @@ This component enables content management of the standard Blog content and its l
 
 ### Extension Modules
 
-* **imagex_blog_addthis*: This extension module of the Blog component integrates [AddThis](http://github.com/imagex/imagex_addthis) Social Media sharing, and its default configuration for Blog content. 
 * **imagex_blog_categories*: Blog Categories for 'Blog' Content Type.
 * **imagex_blog_featured*: Panel view and panelized page of all published blog content, promoted to the front page.
 * **imagex_blog_permissions*: This extension module of the Blog component provides default permissions for ImageX’s [User Roles](http://github.com/imagex/imagex_user_roles). These permissions meet the  requirements to be used in conjunction with the ImageX [Workflow](http://github.com/imagex/imagex_workflow).
