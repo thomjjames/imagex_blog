@@ -43,5 +43,6 @@ features[variable][] = menu_parent_blog
 features[variable][] = node_options_blog
 features[variable][] = node_preview_blog
 features[variable][] = node_submitted_blog
+features[variable][] = panelizer_defaults_node_blog
 features[views_view][] = imagex_blog
 features_exclude[field_base][field_blog_category] = field_blog_category
